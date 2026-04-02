@@ -9,6 +9,7 @@ The data files used, val_n27.csv and test_n69_undersample.csv, are from the pape
 Cai, H.; Li, M.; Lin, Y.-R.; Chen, W.; Wang, S.; Takada, S. Protein pKa Prediction with Machine Learning; ACS Omega, 2021, 6, 34823–34831
 
 doi: 10.1021/acsomega.1c05440
+
 Here we do not redistribute the raw data files.​
 
 In the twob folder within oneb, there are also unfold.py and DCGPKA-unfold.py scripts for input data modeling and pKa prediction for the unfolded protein dataset. Additionally, for the oneb dataset, there is an approach to coarse-grained kinetic modeling of the CagL system under different pH conditions, which can be implemented by modifying the pH value in tf_programme.py and running it.
