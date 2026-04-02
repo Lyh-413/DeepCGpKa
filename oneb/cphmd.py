@@ -3,6 +3,8 @@ import scipy.spatial
 from biopandas.pdb import PandasPdb
 import csv
 from Bio.PDB import PDBIO, PDBParser
+import os
+os.makedirs("./cphmddata",exist_ok=True)
 coor_cols = ['x_coord', 'y_coord', 'z_coord']
 pka=[]
 pdb_id=[]
