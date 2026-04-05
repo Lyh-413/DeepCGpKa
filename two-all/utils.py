@@ -65,8 +65,8 @@ class DataLoaderX(DataLoader):
 
 class CGDataSet(Dataset):
     def __init__(self, data_type):
-        assert data_type in ['train', 'val', 'test','test2','testall','valall']
-        self.dataset_path = constants.DATA_DIR
+        #assert data_type in ['train', 'val', 'test','test2','testall','valall']
+        self.dataset_path = '.'
         self.norm_dic = None
         self.resi_type = constants.RESI_TYPE
         self.workdata_path = self.dataset_path+'/'+data_type

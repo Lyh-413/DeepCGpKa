@@ -1,8 +1,9 @@
-
 import numpy as np
 import scipy.spatial
 from biopandas.pdb import PandasPdb
 from Bio.PDB import PDBIO, PDBParser
+import os
+os.makedirs('unfolddata',exist_ok=True)
 def getpredres(x):
     resi_num = x['residue_number'].values
     aim=x[(x['residue_name']=='ASP') | (x['residue_name']=='GLU') | (x['residue_name']=='LYS') | (x['residue_name']=='HIS')]
