@@ -14,7 +14,7 @@ chain=[]
 delres_id=[]
 delpdb_id=[]
 #use_num =30
-with open(r"./test_n69_undersample.csv", encoding='utf-8')as f:
+with open(r"../test_n69_undersample.csv", encoding='utf-8')as f:
     reader = csv.reader(f)
     headers = next(reader)
     for row in reader:
@@ -44,7 +44,7 @@ def gettheta(x,y):
         return np.arccos(middle / (left * right))
 for v in range (len(pka)):
 
-    sturcture=PDBParser().get_structure(id=None,file='./pdb2/%s.pdb'%(pdb_id[v]))
+    sturcture=PDBParser().get_structure(id=None,file='../pdb2/%s.pdb'%(pdb_id[v]))
     io = PDBIO()
     sturcture=sturcture.get_chains()
     for c in sturcture:
