@@ -52,7 +52,7 @@ def gettheta(x,y):
 for v in range (len(pka)):
     if v == 0:
 
-        sturcture = PDBParser().get_structure(id=None, file='./pdb2/%s.pdb' % (pdb_id[v]))
+        sturcture = PDBParser().get_structure(id=None, file='../pdb2/%s.pdb' % (pdb_id[v]))
         io = PDBIO()
         sturcture = sturcture.get_chains()
         for c in sturcture:
