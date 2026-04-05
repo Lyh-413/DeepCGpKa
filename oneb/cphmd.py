@@ -55,7 +55,7 @@ for v in range (len(pka)):
     io.set_structure(sturcture)
     io.save('out.pdb')
     '''
-    pdb_data = PandasPdb().read_pdb('./pdb/%s_%s.pdb'%(pdb_id[v],chain[v])).df['ATOM']
+    pdb_data = PandasPdb().read_pdb('../pdb/%s_%s.pdb'%(pdb_id[v],chain[v])).df['ATOM']
     #pdb_data = PandasPdb().read_pdb('out.pdb').df['ATOM']
     #aa_dismap = scipy.spatial.distance.cdist(pdb_data[coor_cols], pdb_data[coor_cols], metric='euclidean')
     pdb_CA = pdb_data[pdb_data["atom_name"] == 'CA']
