@@ -1,0 +1,12 @@
+einops==0.8.2
+matplotlib==3.8.3
+MDAnalysis==2.7.0
+MDAnalysis==2.10.0
+mdtraj==1.9.9
+numpy==1.23.2
+OpenMM==8.1.1
+prefetch_generator==1.0.3
+scipy==1.17.1
+seaborn==0.13.2
+torch==2.1.2.post301
+tqdm==4.66.2
