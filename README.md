@@ -19,3 +19,11 @@ The data files used, val_n27.csv and test_n69_undersample.csv, are from the pape
 
 Cai, H.; Li, M.; Lin, Y.-R.; Chen, W.; Wang, S.; Takada, S. Protein pKa Prediction with Machine Learning; ACS Omega, 2021, 6, 34823–34831, doi: 10.1021/acsomega.1c05440.
 
+## Environment Requirements
+
+Python Version: 3.11 (recommend 3.8-3.11 for better compatibility)
+To install required dependencies, run the following command in your terminal
+
+```bash​
+pip install -r requirements.txt​
+```
